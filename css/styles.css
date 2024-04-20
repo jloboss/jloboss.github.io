@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #fafafa; /*Color de Fondo*/
+  
+}
+.bg-nav{ /*color fondo menu*/
+    background-color:  #2c2c2c;
+}
+#navbarNav{ /*centrar a la izquierda menu*/
+  display: flex;  
+  justify-content: flex-end;
+}  
+.header{
+  height: 350px;
+  text-align: center;
+  color: #fff;
+  background-color: #505050;
+}
+.header img{ 
+  border: solid 10px #fff;
+  transform: translateY(40px); /*mueve imagen redonde en eje y*/
+  width: 250px;
+  border-radius: 50%;/*Redondeo imagen*/
+  box-shadow: 1px 1px 40px #555;
+}
+.header p{/*titulo ingeniero de plataformas*/
+  font-size: 1rem;
+}
+.h1{/*titulo johnny lobos*/
+  font-size: 2rem;
+}
+.main{
+  height: 100vh;
+  /*background-color: #fafafa;*/
+}
+.seccion{
+  padding: 10rem;
+  margin: auto;
+  width: 90%;
+  height: 400px;
+  box-shadow: 1px 1px 40px #555; /*sombrido bordes*/
+  text-align: center;
+}
+.seccion article{/*descripcion ejecutivo 10 años*/
+  text-align: center;
+  font-size: 0.9rem;
+}
+.icons{/*agrandar imagenes iconos redes sociales*/
+  padding: 10px 0;
+  color: #a1a1a1;
+  font-size: 2rem;
+}
+.icons i{ /*Separacion iconos redes sociales*/
+  margin: 0 5px;
+}
+.titulo2{/*titulo educacion*/
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 3px;
+}
+.card-header{
+  background: #505050;
+  color: #fff;
+  
+}
+.caja_iconos{/*movimientos en titulo educacion y titulo Skill*/
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.img_iconos img{/*tamaño imagen educacion*/
+  margin: 0 1px;
+  width: 80px;
+  height: 80px;
+} 
+.img_iconos p{/*tamaño letra eduacion*/
+  font-size: 0.8em;
+}
+.iconic p{
+  font-size: 0.8em;
+}
+.iconic i{ /*tamaño iconos skill*/
+  font-size: 2rem;
+}
+.logros{ /* tamaño letra experiencia laboral*/
+  font-size: 0.9em;
+}
+.contact{
+  display: flex;
+  justify-content: space-around;
+}
+.contact h3{
+  font-size: 1em;
+}
+.title_contactame{
+  font-size: 2em;
+  text-align: center;
+  
+}

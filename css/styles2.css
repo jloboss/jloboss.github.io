@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Raleway", sans-serif;
+    background-color: #fafafa; /*Color de Fondo*/
+    
+  }
+.header{
+    width: 0 auto;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+}
+.header img{ 
+    border: solid 10px #fff;
+    width: 200px;
+    border-radius: 50%;/*Redondeo imagen*/
+    margin: 50px; /*espaciado entre la imagen y el texto*/    
+}
+h1{
+    font-size: 3em;
+    color: #fff;
+    font-family: fantasy;
+}
+
+.presentacion1{
+    font-size: 2.7em;
+    color: #555;
+}
+.presentacion1 span{ /*Color alternativo titulo1*/
+    color: rgb(34, 133, 133);
+}
+.presentacion2 span{/*Color alternativo titulo2*/
+    color: rgb(34, 133, 133);
+}
+h2{
+    font-size: 1em;
+    color: #fff;
+    justify-content: left;
+}
+h3{
+    color: #fff;
+}
+h4{
+    font-size: 1.2em;
+    color: #555;
+    font-family: fantasy;
+}
+h5{
+    color: rgb(34, 133, 133);
+}
+hr {
+    color: #fff;
+}
+.tit_trab{
+    font-size: 2em;
+    color: rgb(34, 133, 133);
+    
+    text-align: center;
+}
+.title_contactame{
+    font-size: 2em;
+    color: rgb(34, 133, 133);
+}
+.container{
+    padding: 20px;
+}
+.section-header h2{
+    text-align: center;
+    padding: 20px;
+    font-family: fantasy;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+.contact h3{
+    color: black;
+    font-size: 1em;
+}
